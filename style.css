@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* 
+    background-color: #1f2937; */
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.header {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+    max-width: 500px;
+    flex-grow: 1;
+}
+
+.links1 {
+    max-width: 500px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+a {
+    /* this removes the line under the links */
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.presentation {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+
+.responsive {
+    max-width: 100%;
+    min-width: 50%;
+    height: auto;
+}
+
+.left-items,
+.image-containers {
+    max-width: 500px;
+}
+
+
+.title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.presentation-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+button.request-quote {
+    background: #3882f6;
+    border: 1px solid royalblue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    /* padding-right: 150px;
+    padding-left: 150px; */
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.services-title {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 32px;
+    color: #1f2937;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.train,
+.truck,
+.plane,
+.ship {
+    display: flex;
+    flex-direction: column;
+    max-width: 175px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* img.responsive {
+    width: 500px;
+} */
+
+img.img-services {
+    padding: 3px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+.text {
+    text-align: center;
+    color: #6e7072;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.testimonals {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 260px;
+    padding-right: 260px;
+}
+
+.container-testimonal {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #6e7072;
+    max-width: 800px;
+    flex-grow: 1;
+    justify-content: center;
+    display: flex;
+}
+
+.author {
+    color: #1f2937;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.contact {
+    display: flex;
+    background-color: #ffffff;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-form {
+    display: flex;
+    background-color: #3882f6;
+    max-width: 800px;
+    flex-grow: 1;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #e5e7eb;
+}
+
+.contact-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.contact-quote {
+    font-size: 18px;
+}
+
+button.request-quote-2 {
+    background: #3882f6;
+    border: 2px solid #e5e7eb;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    min-height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 18px;
+    color: #e5e7eb;
+}
